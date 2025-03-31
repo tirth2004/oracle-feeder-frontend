@@ -43,10 +43,10 @@ export default function Header() {
   return (
     <header className="flex items-center justify-between p-4 bg-black text-white border-b border-gray-700">
       <h1 className="text-xl font-bold">SchizoChain</h1>
-      <DropdownMenu open={isDropdownOpen && account} onOpenChange={setIsDropdownOpen}>
+      <DropdownMenu open={!!(isDropdownOpen && account)} onOpenChange={setIsDropdownOpen}>
         <DropdownMenuTrigger asChild>
           <Button variant="outline" className="bg-gray-900 text-white" onClick={!account ? connectWallet : undefined}>
-            {account ? `${account.slice(0, 6)}...${account.slice(-4)} (${balance} ETH)` : "Connect Wallet"}
+            {account ? `${account.slice(0, 6)}...${account.slice(-4)} (${balance} tb)` : "Connect Wallet"}
           </Button>
         </DropdownMenuTrigger>
         {account && (
