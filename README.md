@@ -1,8 +1,13 @@
-# SchizChain
+# SchizoChain
 
 The unhinged oracle with 1s finality, embracing multi-truth consensus for truly decentralized, fee-efficient data.
 
 A modern React-based frontend application for interacting with an Oracle Feeder system. This application provides a user interface for managing and interacting with oracle data on the blockchain.
+
+## Demo
+
+Watch a demo of the application in action:
+[View Demo Video](https://drive.google.com/file/d/1PI52KiezAhEwY_awsKoVyxT-VuF_74qf/view?usp=sharing)
 
 ## Features
 
