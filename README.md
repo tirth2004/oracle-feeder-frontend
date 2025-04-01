@@ -27,6 +27,10 @@ Watch a demo of the application in action:
 - **Build Tool:** Vite
 - **UI Components:** Radix UI
 
+## Architecture
+![diagram-export-4-1-2025-12_04_57-AM](https://github.com/user-attachments/assets/eebb7d13-74e0-4dc0-951a-363b897118f5)
+
+
 ## Getting Started
 
 ### Prerequisites
